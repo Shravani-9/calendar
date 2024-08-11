@@ -304,24 +304,25 @@
   }
 @media (max-width: 320px){
     body {
-        width: 3%;        
-        margin-left: 150px;
-        background: linear-gradient(to right, #0A0921,#7776c3, #272937);
+      display: flex;
+      height: 100vh;
+      width: max-content;
+      justify-content: center;
+      align-items: center;
+      place-items: center;
+      background: #292951;
+      overflow: hidden;
       }
        
 }
 @media (max-width:320px){
     .calendar {
-        height: 28rem;
-        width: 83%;
-        background-color: white;
-        border-radius: 25px;
-        overflow: hidden;
-        padding: 0px 0px 0px 0px;
-        margin-left: 42px;
+      height: 30rem;
+      width: max-content;
+      background-color: white;
+      border-radius: 25px;
+      overflow: hidden;
+      padding: 35px 50px 0px 50px;
       }
-    .date-time-formate{
-      padding-bottom: 20px;
-    }
-      
+    
 }
