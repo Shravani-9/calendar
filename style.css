@@ -304,20 +304,24 @@
   }
 @media (max-width: 320px){
     body {
-        width: 20px;        
-        margin-left: 60px;
+        width: 3%;        
+        margin-left: 150px;
         background: linear-gradient(to right, #0A0921,#7776c3, #272937);
       }
        
 }
 @media (max-width:320px){
     .calendar {
-        height: 30rem;
-        width: max-content;
+        height: 2rem;
+        width: 83%;
         background-color: white;
         border-radius: 25px;
         overflow: hidden;
-        padding: 35px 50px 0px 50px;
+        padding: 0px 0px 0px 0px;
+        margin-left: 42px;
       }
+    .date-time-formate{
+      padding-bottom: 20px;
+    }
       
 }
